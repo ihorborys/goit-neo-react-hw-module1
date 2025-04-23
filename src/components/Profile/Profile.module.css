@@ -1,0 +1,83 @@
+body {
+    margin: 0; /* Прибираємо стандартні відступи */
+    min-height: 100vh; /* Висота сторінки на весь екран */
+    display: flex; /* Використовуємо Flexbox */
+    justify-content: center; /* Центруємо по горизонталі */
+    align-items: center; /* Центруємо по вертикалі */
+}
+
+ul {
+    all: unset;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    background-color: dimgrey;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.tag {
+    font-size: 22px;
+    color: grey;
+}
+
+.location {
+    font-size: 22px;
+    color: grey;
+}
+
+.statisticsList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: lightgrey;
+    /*padding: 10px;*/
+}
+
+.statisticsItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid dimgrey;
+    border-bottom: none;
+    border-left: none;
+    padding: 5px;
+}
+
+.statisticsItem:last-child {
+    border-right: none;
+}
+
+.statisticsItemName {
+    font-size: 18px;
+}
+
+.statisticsItemValue {
+    font-size: 18px;
+    font-weight: bold;
+}
