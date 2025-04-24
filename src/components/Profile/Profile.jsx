@@ -1,7 +1,6 @@
 import styles from './Profile.module.css';
 import PropTypes from 'prop-types';
 
-console.log(styles)
 
 const Profile = ({name, tag, location, image, stats}) => {
     return <div className={styles.container}>
