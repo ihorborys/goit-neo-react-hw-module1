@@ -3,9 +3,9 @@ import styles from "./FriendList.module.css";
 import PropTypes from "prop-types";
 
 
-const FriendList = (friends) => {
+const FriendList = ({friends}) => {
     return (<ul className={styles.list}>
-            {friends.friends.map((friend) =>
+            {friends.map((friend) =>
                 <li key={friend.id}
                     className={styles.listItem}>
                     <FriendListItem
