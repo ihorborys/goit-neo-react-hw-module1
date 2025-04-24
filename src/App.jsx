@@ -1,5 +1,6 @@
 import userData from "./userData.json";
-import Profile from "./Profile/Profile.jsx";
+import Profile from "./components/Profile/Profile.jsx";
+
 
 const App = () => {
     return (
@@ -11,8 +12,11 @@ const App = () => {
                 image={userData.avatar}
                 stats={userData.stats}
             />
+
         </>
     );
 };
 
 export default App
+
+
