@@ -1,0 +1,31 @@
+.table {
+    margin: 40px 0;
+    min-width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tableHeader {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.tableHeaderRowData {
+    padding: 5px;
+}
+
+.tableBodyRow {
+    background-color: whitesmoke;
+}
+
+.tableBodyRowGrey {
+    background-color: lightgrey;
+}
+
+.tableBodyRowData {
+    border: 1px solid black;
+    padding: 5px;
+}
